@@ -19,6 +19,7 @@ namespace Data.Database
         public LMSEntities()
             : base("name=LMSEntities")
         {
+            this.Configuration.LazyLoadingEnabled = false;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

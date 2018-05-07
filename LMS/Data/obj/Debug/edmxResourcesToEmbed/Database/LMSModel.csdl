@@ -70,7 +70,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="LMSEntities" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="LMSEntities" annotation:LazyLoadingEnabled="false">
     <EntitySet Name="Courses" EntityType="Self.Course" />
     <EntitySet Name="Students" EntityType="Self.Student" />
     <EntitySet Name="StudentCourses" EntityType="Self.StudentCourse" />
